@@ -1,2 +1,5 @@
-public class Color {
+public interface Color {
+
+    public void showColor();
+
 }
