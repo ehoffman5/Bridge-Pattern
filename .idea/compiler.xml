@@ -9,5 +9,8 @@
         <module name="bridge-pattern" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bridge-pattern" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
