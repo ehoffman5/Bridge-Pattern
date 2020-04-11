@@ -14,6 +14,5 @@ public abstract class Shape {
         this.color = color;
     }
     abstract public void addColor();
-    abstract public void draw();
 
 }
