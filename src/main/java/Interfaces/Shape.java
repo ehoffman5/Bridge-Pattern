@@ -1,3 +1,7 @@
+package Interfaces;
+
+import Interfaces.Color;
+
 public abstract class Shape {
 
     protected Color color;

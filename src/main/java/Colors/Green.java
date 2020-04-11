@@ -1,4 +1,10 @@
 package Colors;
 
-public class Green {
+import Interfaces.Color;
+
+public class Green implements Color {
+
+    public void showColor() {
+        System.out.println("GREEN");
+    }
 }
