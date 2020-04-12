@@ -10,7 +10,7 @@ Before applying the bridge pattern, each color instance would have to be assigne
 ![before-bridge](https://user-images.githubusercontent.com/35542660/79058158-d6f66300-7c2f-11ea-8056-a3f39b9640e3.JPG)
 
 ### The Solution:
-Implementing the bridge pattern allows the implementation (Color) to be developed independently of the abstraction (Shape).
+Implementing the bridge pattern allows the implementation (Color) to be developed independently of the abstraction (Shape).  This is good because it increases loose coupling between the implementation and the abstraction.
 
 ![after-bridge](https://user-images.githubusercontent.com/35542660/79058162-e07fcb00-7c2f-11ea-862f-bc8679e9aa7b.JPG)
 
