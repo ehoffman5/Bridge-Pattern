@@ -4,12 +4,12 @@ import Interfaces.Color;
 
 public abstract class Shape {
 
-    protected Color color;
-    protected Color getColor()
+    public Color color;
+    public Color getColor()
     {
         return color;
     }
-    protected void setColor( Color color )
+    public void setColor( Color color )
     {
         this.color = color;
     }
