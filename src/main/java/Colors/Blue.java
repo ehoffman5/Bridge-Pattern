@@ -4,7 +4,8 @@ import Interfaces.Color;
 
 public class Blue implements Color {
 
-    public void showColor() {
+    // used when choosing the color BLUE to assign to all existing shapes
+    public void chooseColor() {
         System.out.println("BLUE");
     }
 }

@@ -9,6 +9,7 @@ public class RunClient {
 
         Scanner scanner = new Scanner(System.in);
 
+        // Select the color that will be assigned to all existing shapes
         System.out.println("Choose your color:");
         System.out.println("Type 1 for BLUE");
         System.out.println("Type 2 for RED");
@@ -16,44 +17,46 @@ public class RunClient {
 
         int colorChoice = scanner.nextInt();
 
+        // Initialize objects of all existing shapes
         Shape rectangleShape = new Rectangle();
         Shape circleShape = new Circle();
         Shape triangleShape = new Triangle();
 
         System.out.println();
 
+        // Display output to client
         switch(colorChoice) {
             case 1:
                 rectangleShape.setColor(new Blue());
-                rectangleShape.addColor();
+                rectangleShape.assignColor();
 
                 circleShape.setColor(new Blue());
-                circleShape.addColor();
+                circleShape.assignColor();
 
                 triangleShape.setColor(new Blue());
-                triangleShape.addColor();
+                triangleShape.assignColor();
 
                 break;
             case 2:
                 rectangleShape.setColor(new Red());
-                rectangleShape.addColor();
+                rectangleShape.assignColor();
 
                 circleShape.setColor(new Red());
-                circleShape.addColor();
+                circleShape.assignColor();
 
                 triangleShape.setColor(new Red());
-                triangleShape.addColor();
+                triangleShape.assignColor();
 
                 break;
             case 3:
                 rectangleShape.setColor(new Green());
-                rectangleShape.addColor();
+                rectangleShape.assignColor();
 
                 circleShape.setColor(new Green());
-                circleShape.addColor();
+                circleShape.assignColor();
 
                 triangleShape.setColor(new Green());
-                triangleShape.addColor();
+                triangleShape.assignColor();
 
                 break;
             default:
